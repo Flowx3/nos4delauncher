@@ -1,4 +1,4 @@
-﻿Imports System.IO
+Imports System.IO
 Imports MySql
 Imports MySql.Data
 Imports MySql.Data.MySqlClient
@@ -13,9 +13,9 @@ Public Class Form1
     Public myConnectionString As String
     Dim X As Integer
     Dim Y As Integer
-	Public databaseip as String = "127.0.0.1"
-	Public username as String = "root"
-	Public password as String = "root"
+    Public databaseip as String = "127.0.0.1"
+    Public username as String = "root"
+    Public password as String = "root"
     Public database As String = "Nostale"
     Public Forum As String = "http://board.nostale.de/"
     Public Website As String = "http://nostale.de/"
